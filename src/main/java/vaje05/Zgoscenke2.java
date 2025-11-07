@@ -12,11 +12,7 @@ public class Zgoscenke2 {
 
         int[] arr = new int[n];
 
-        while (true) {
-            if (!sc.hasNext()) {
-                break;
-            }
-
+        while (sc.hasNext()) {
             int curNum = sc.nextInt();
             int sIndex = getSmallestIndex(arr);
 
